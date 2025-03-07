@@ -1,0 +1,9 @@
+.flex{
+    display: flex;
+}
+.invert{
+    filter: invert();
+}
+.center{
+    justify-content: center;
+}

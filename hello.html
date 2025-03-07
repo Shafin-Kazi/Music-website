@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmoniq: Your Ultimate Music Hub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menuslide">
+            <h1>Harmoniq</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recently Played</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Trending</h4>
+            </div>
+            <div class="songsmenu">
+                <li class="songitems">
+                    <span>01</span>
+                    <img src="img/Old_money.jpg" alt="">
+                    <h5>Old Money<br>
+                        <div class="subtitle">
+                            Ap Dhillon
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+
+                <li class="songitems">
+                    <span>02</span>
+                    <img src="img/2.jpeg" alt="">
+                    <h5>Born to Shine<br>
+                        <div class="subtitle">
+                            Diljit Dosanjh
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+
+                <li class="songitems">
+                    <span>03</span>
+                    <img src="img/3.jpg" alt="">
+                    <h5>Lemonade<br>
+                        <div class="subtitle">
+                            Diljit Dosanjh
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+
+                <li class="songitems">
+                    <span>04</span>
+                    <img src="img/4.jpg" alt="">
+                    <h5>O Maahi<br>
+                        <div class="subtitle">
+                            Arijit Singh
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+
+                <li class="songitems">
+                    <span>05</span>
+                    <img src="img/5.jpg" alt="">
+                    <h5>Aaj Ki Raat<br>
+                        <div class="subtitle">
+                            Madhubanti Bagchi, Divya Kumar, Sachin -Jigar
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+
+                <li class="songitems">
+                    <span>06</span>
+                    <img src="img/6.jpeg" alt="">
+                    <h5>See you again<br>
+                        <div class="subtitle">
+                            Wiz Khalifa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+
+                <li class="songitems">
+                    <span>07</span>
+                    <img src="" alt="">
+                    <h5>Old Money<br>
+                        <div class="subtitle">
+                            Ap Dhillon
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                </li>
+            </div>
+        </div>
+
+
+        <div class="songslide">
+            <nav>
+                <ul>
+                    <li>Discover<span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Song...">
+                </div>
+                <div class="user">
+                    <img src="img/userimage.jpg" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Arijit Singh-Kesariya</h1>
+                <p>Dive into a world of passion and emotion with Arijit Singh’s mesmerizing voice.</p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songitems">
+                        <div class="img_play">
+                            <img src="img/Alan_Walker_-_On_My_Way.png" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                        </div>
+                        <h5>On My Way<br>
+                            <div class="subtitle">
+                                Alan Walker
+                            </div>
+                        </h5>
+
+                    </li>
+
+
+                    <li class="songitems">
+                        <div class="img_play">
+                            <img src="img/pasoori.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>Pasoori<br>
+                            <div class="subtitle">
+                                Shae Gill, Ali Sethi
+                            </div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songitems">
+                        <div class="img_play">
+                            <img src="img/kesariya.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>Kesariya<br>
+                            <div class="subtitle">
+                                Arijit Singh
+                            </div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songitems">
+                        <div class="img_play">
+                            <img src="img/obsessed.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>Obsessed<br>
+                            <div class="subtitle">
+                                Riar Saab, Abhijay Sharma
+                            </div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songitems">
+                        <div class="img_play">
+                            <img src="img/Lalkara.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>Lalkara<br>
+                            <div class="subtitle">
+                                Diljit Dosanjh, Intense, Sultaan
+                            </div>
+                        </h5>
+                    </li>
+
+                    <li class="songitems">
+                        <div class="img_play">
+                            <img src="img/californialove.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>California Love<br>
+                            <div class="subtitle">
+                                Cheema Y, Gur Sindhu
+                            </div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="item_left"></i>
+                        <i class="bi bi-arrow-right-short" id="item_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="img/Artistimage1.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/2164-atif-aslam.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/ed_sheeran.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/karanaujla.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/kk.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Shekhar_Ravjiani.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/vishal.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/2.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/taylor_s.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/justin_b.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/honeysingh.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/ketty_p.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/arman_m.jpg" alt="">
+                    </li>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="bottombox">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/2.jpeg" alt="" id="titleImage">
+            <h5 id="title">
+                Born to Shine
+                <div class="subtitle">Diljit Dosanjh</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed"></i>
+                <i class="bi bi-skip-start-fill" id="previousSong"></i>
+                <i class="bi playListPlay bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="nextSong"></i>
+                <a href="" id="download"><i class="bi bi-download"></i></a>
+            </div>
+            <span id="currentstart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentend">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-down" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
