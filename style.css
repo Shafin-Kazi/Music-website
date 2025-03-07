@@ -272,7 +272,7 @@ header .bottombox .bar{
 header .bottombox .bar .bar2{
     position: absolute;
     background: aqua;
-    width: 50%;
+/*     width: 50%; */
     height: 100%;
     top: 0;
     transition: 1s linear;
